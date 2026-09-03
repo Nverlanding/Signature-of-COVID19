@@ -95,5 +95,3 @@
 #### 4. Signature Validation
 
 ![AUC_2](./Results/AUC_2.png)
-
-![AUC_3](./Results/AUC_3.png)
