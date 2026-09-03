@@ -1,7 +1,4 @@
 # Signature-of-COVID19
-
-​	This repository reproduces the analytical workflow described in: A T-Cell-Derived 3-Gene Signature Distinguishes SARS-CoV-2 from Common Respiratory Viruses (Viruses, 2024).
-
 ​	Using publicly available transcriptomic datasets, we integrated multiple respiratory virus cohorts and constructed a reproducible pipeline for host-response biomarker discovery, including transcriptomic profiling, immune landscape characterization, network analysis, machine learning feature selection, and cross-cohort validation. 
 
 ​	Research Background COVID-19 shares many clinical manifestations with common respiratory viral infections, making early discrimination challenging. Transcriptomic signatures provide a promising strategy for distinguishing SARS-CoV-2 infection from other respiratory viruses and for understanding the underlying immune response mechanisms.
@@ -16,8 +13,6 @@
 |---| 
 | GSE17156 |
 | GSE198449 |
-
-> Note: Original study uses data HRA000786. However, due to the difficulty in processing fastq data, GSE198449 has been used instead.
 
 
 
@@ -75,11 +70,8 @@
 
    Five machine-learning models were used:Random Forest, XGBoost, GBM, LASSO, Elastic Net  Robust Rank Aggregation (RRA) was applied to obtain consensus biomarkers. 
 
-8. Signature Construction and Validation 
-
-   Two groups of signatures were evaluated: 
-
-   - Published signature: CLSPN + RBBP6 + CCDC91
+8. Signature Construction and Validation
+   
    - Alternative signature identified in this project: SIAH1 + PALLD
 
    Performance was evaluated using ROC analysis across independent cohorts.
