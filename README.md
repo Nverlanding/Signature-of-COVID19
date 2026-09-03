@@ -32,8 +32,6 @@
 | E-MTAB-10022 |
 | GSE38900 |
 
-> Note: Not all validation data have been downloaded.
-
 
 
 ​	Samples were categorized into Control, Asymptomatic COVID-19 and Symptomatic COVID-19 and compared with common respiratory viral infections including: HRV, IFV, RSV.
