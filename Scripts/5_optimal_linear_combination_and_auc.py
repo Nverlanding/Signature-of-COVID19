@@ -13,7 +13,7 @@ STEP3 = ROOT / "data/results/3_coconut_wgcna_intersection"
 INPUT = ROOT / "data/analysis_inputs"
 OUTPUT = ROOT / "data/results/5_optimal_linear_combination_and_auc"
 RRA_INPUT = ROOT / "data/results/4_machine_learning_and_rra/rra_ranked_genes.tsv"
-SIGNATURES = {"SIAH1_PALLD": ("SIAH1", "PALLD"), "CLSPN_RBBP6_CCDC91": ("CLSPN", "RBBP6", "CCDC91")}
+SIGNATURES = {"SIAH1_PALLD": ("SIAH1", "PALLD")}
 POSITIVE_GROUPS = {"asymptomatic", "symptomatic"}
 # One row describes one cohort; role, file type, and both input artifacts remain explicit.
 COHORTS = pd.DataFrame([
